@@ -26,6 +26,6 @@ jobs:
       with:
         subscriptionId: ${{ secrets.AZURE_SUBSCRIPTION_ID }}
         resourceGroupName: ARMTEST
-        template: ./path/to/your/logicapp-template.json  # Update with the actual path to your template
-        parameters: ./path/to/your/parameters.json  # Optional: Update with the actual path to your parameters file if you have one
+        template: template.json  # Update with the actual path to your template
+        parameters: parameters.json  # Optional: Update with the actual path to your parameters file if you have one
 
